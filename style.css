@@ -1,0 +1,80 @@
+/* Importação de fonte personalizada */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+/* Configuração geral do site */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #4A30D4 80%, #D4FF6C 20%);
+    color: white;
+    height: 100vh;
+}
+
+
+/* Layout principal */
+.container {
+    display: flex;
+    justify-content: space-between; /* Divide o conteúdo em dois lados */
+    align-items: center;
+    height: 100vh;
+    padding: 50px;
+}
+
+/* Seção de texto */
+.text-section {
+    width: 60%;
+   
+}
+
+.text-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+
+.text-section h1 span {
+    color: #D4FF6C; /* Cor verde-claro */
+}
+
+.text-section p {
+    font-size: 1.5rem;
+}
+
+.info {
+    display: flex; /*faz transformar em coluna*/
+    color: #D4FF6C; /* Cor verde-claro */
+    gap: 40px; /*espaçamento entre os paragrafos*/
+ 
+}
+
+.info {
+    display: flex; /*faz transformar em coluna*/
+    color: #D4FF6C; /* Cor verde-claro */
+    gap: 30px; /*espaçamento entre os paragrafos*/
+}
+
+.info p {
+    margin: 0; /* Remove qualquer margem padrão dos <p> */
+    text-align: justify;
+    font-size: 1rem;
+    width: 30%;
+}
+
+/* Seção da imagem */
+.image-section {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+.image-container {
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 5px;
+}
